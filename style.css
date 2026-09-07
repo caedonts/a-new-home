@@ -19,6 +19,15 @@
   font-family: "CommitMono";
   margin: 0;
   padding: 0;
+  border: 1px solid lightcoral;
+  background-color: whitesmoke;
+  padding: 1ch 1rem;
+}
+
+p {
+  width: 100%;
+  max-width: 60ch;
+  line-height: 1.2rem;
 }
 
 ol,
@@ -28,20 +37,18 @@ ul {
 
 /* ====== Styling ====== */
 
-p {
-  background-color: aqua;
+nav {
+  position: fixed;
 }
 
-body * + * {
-  margin-block-start: 1em;
+main {
+  margin-left: 200px;
 }
 
-h1 {
-  font-size: 2rem;
+main * + * {
+  margin-block-start: 1rem;
 }
 
-div {
-  width: 1em;
-  height: 1em;
-  background-color: blue;
+#main-nav {
+  width: 200px;
 }
