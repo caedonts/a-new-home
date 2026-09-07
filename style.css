@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "CommitMono";
+  src:
+    local("CommitMono-400-Regular.otf"),
+    url("http://127.0.0.1:5500/fonts/CommitMono-400-Regular.otf")
+      format(opentype);
+}
+
+/* :root {
+
+} */
+
+/* ====== Resets ====== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "CommitMono";
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* ====== Styling ====== */
+
+p {
+  background-color: aqua;
+}
+
+body * + * {
+  margin-block-start: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+div {
+  width: 1em;
+  height: 1em;
+  background-color: blue;
+}
